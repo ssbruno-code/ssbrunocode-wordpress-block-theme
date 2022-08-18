@@ -1,0 +1,17 @@
+{
+    "name": "ssbruno-code/ssbcodeblocks",
+    "description": "My portfolio block theme",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Bruno Santana Stefani",
+            "email": "ti.brunosantana@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}

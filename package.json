@@ -1,0 +1,23 @@
+{
+  "name": "ssbruno-code",
+  "version": "1.0.0",
+  "description": "My V2 wordpress theme for ssbruno.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start src/index.js blocks/banner.js blocks/header.js blocks/button.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssbruno-code"
+  },
+  "keywords": [
+    "Wordpress"
+  ],
+  "author": "Bruno Santana Stefani",
+  "license": "ISC",
+  "dependencies": {
+    "@wordpress/icons": "^9.5.0",
+    "@wordpress/scripts": "^19.2.2"
+  }
+}

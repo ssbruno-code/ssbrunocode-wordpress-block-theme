@@ -1,0 +1,38 @@
+
+  .ssb-logo{
+    width: 8% !important;
+  }
+
+  .container .navbar-brand img{
+    margin-bottom: 5px;
+  }
+
+  .container .navbar-brand h3{
+    font-size: 1.5rem;
+    line-height: 1rem !important;
+    display:inline-block;
+  }
+
+  @media(max-width:994px){
+
+    .container .navbar-brand {
+      width: 70%;
+
+    }
+    
+    .ssb-logo{
+      width: 18% !important;
+    }
+
+  }
+
+
+
+  #navmenu li{
+    align-items: center ;
+    vertical-align: middle;
+    margin: 0 auto;
+    display:inline-block;    
+  }
+
+  

@@ -1,0 +1,44 @@
+#ssb-single-work{
+  
+  .featurette-title{
+    
+    font-weight: 700;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .75;
+    background-color: black;
+    border-radius: 0 0 12px 12px;
+  }
+
+  .ssb-meta{
+    margin-top: 20px;
+  }
+
+  @media(max-width: 764px){
+    .ssb-meta {
+      margin-top: 10px !important;
+    }
+  }
+
+  .mx-0{
+    box-shadow: 3px 3px 10px rgba(69, 167, 247, 0.5);
+  }
+
+  .featurette-title b{
+    background: -webkit-linear-gradient(left, $lightBlue, $mainPurple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .jumbotron {
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 12px 12px;
+  }
+}

@@ -1,0 +1,77 @@
+  #ssb-section-id-3{
+
+  // SECTION 3
+
+  .ssbc-block-3{
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+
+  .ssbc-block-3 .ssbc {
+    padding: 50px;
+  }
+
+  .ssbc-block-3 p{
+    color: #63748b;
+
+  }
+
+  @media(max-width:1199px){
+    .ssbc{
+      margin-left:0px !important;
+    }
+  }
+
+  .ssbc{
+    margin-left:80px;
+  }
+
+  .ssbc h2{
+    margin-top: 40px;
+
+  }
+
+  .ssb-spacing-top{
+    margin-top: 20px;
+
+  }
+
+  .ssb-spacing-top .ssbc-button-color{
+    background-image: linear-gradient(to right, #14a1ff,#2e73ff, #13dfe9 , #c444ff);
+  }
+
+  .ssbc-block-3 span{
+    color: #f4f4f4;
+    font-size: .8rem;
+  }
+
+  .ssbc-title-spacing{
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+
+  .ex-button-0 {
+    vertical-align: middle !important;
+    text-align: center;
+    transition: all ease 0.5s;  
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    padding: 30px 30px !important;
+    background-image: linear-gradient(to right, #021736,#02336b, #13dfe9 , #c444ff);
+    background-size:300%;
+    background-position: 0 0;
+    -webkit-appearance: none !important;
+    color: #fff;
+    text-decoration:none
+  }
+
+  .ex-button-0:hover {
+  background-position: 100% 0;
+  color:#fff;
+  }
+
+ 
+  
+}

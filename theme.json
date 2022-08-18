@@ -1,0 +1,41 @@
+{
+    "version": 2,
+    "styles":{
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "text": "#FFFFFF",
+                    "background": "var(--wp--preset--color--blue)"
+                },
+                "border": {
+                    "radius": "8px"
+                }
+            }
+        }
+    },
+    "settings": {
+        "color": {
+            "palette" : [ 
+                {
+                "slug": "blue",
+                "color": "#2e73ff",
+                "name": "Purple"
+                },
+                {
+                "slug": "purple",
+                "color": "#c444ff",
+                "name": "Purple"
+                },
+                {
+                "slug": "dark-blue",
+                "color": "#021736",
+                "name": "Dark Blue"
+                }
+            ]    
+        },
+        "layout":{
+            "contentSize": "800px"
+        }
+    
+    }
+}

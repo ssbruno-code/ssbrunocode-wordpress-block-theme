@@ -1,0 +1,63 @@
+// CORE
+
+a {
+  color: $mainBlue;
+}
+
+.card-space{
+  margin-top: 1.5rem !important;
+}
+.responsive-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.not-display-ssb{
+  display:none !important;
+  transition: .5s;
+}
+
+.card-title a{
+  text-decoration: none;
+}
+
+p,
+ul,
+ol {
+  margin: 0 0 1.65em 0;
+}
+
+p,
+li {
+  line-height: 1.65;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+span,
+body {
+  font-family: "Montserrat", sans-serif;
+  color: $darkBlue;
+}
+
+.ssbc-icons {
+  filter: invert(95%) sepia(2%) saturate(2690%) hue-rotate(185deg) brightness(101%) contrast(95%);
+}
+
+.ssbc-icons-spacing {
+  padding: 30px 0px;
+  margin-right: 100px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}

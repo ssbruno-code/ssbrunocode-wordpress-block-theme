@@ -1,0 +1,85 @@
+#ssb-section-id-2{
+  p{
+    color:$gray;
+    font-weight: 300;
+  }
+
+  b{
+    color:$darkBlue;
+    font-weight: 800;
+  }
+
+
+  .feature h2{
+    font-weight: 800;
+    font-size: 1.3rem;
+  }
+
+  .feature p{
+    color: $gray;
+    font-weight: 300;
+    font-size: 1rem;
+    padding-right: 50px;
+  }
+
+  
+  
+
+
+
+  img{
+    border-radius:8px ;
+    margin-right: 95px;
+  }
+  
+
+  
+ .bg-primary{
+  vertical-align: middle !important;
+  text-align: center;
+  transition: all ease 0.5s;  
+  background-image: linear-gradient(to right, $secondBlue, $mainBlue, #1c76fd,#0561ca) !important;
+  background-size:300%;
+  background-position: 0 0;
+  -webkit-appearance: none !important;
+  color: #fff;
+  text-decoration:none;
+ }
+
+ .bg-primary:hover{
+  background-position: 100% 0;
+  color:#fff;
+  transform: scale(1.2);
+ }
+
+ @media (max-width: 767px) {
+  .feature p{      
+    font-size: .9rem;
+    padding-right: 10px;
+  }
+  .feature h2{
+    font-weight: 800;
+    font-size: 1.1rem;
+  }
+  .feature{
+    margin: 0 auto;
+  }
+  .ssb-spacing{
+    padding: 0!important;
+  }   
+
+  .ssbc-icons-spacing{
+    padding: 30px 30px !important;
+    border-radius: 8px ;
+    width: 100%;
+  }
+
+  img{
+    margin-bottom: 50px !important;
+    margin-right: 20px;
+      
+  }
+
+}
+  
+}

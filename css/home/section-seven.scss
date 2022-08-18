@@ -1,0 +1,49 @@
+#ssb-section-id-7{
+  .container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .bg-light{
+    margin-top: 40px !important;
+    border-radius: 12px;
+  }
+
+  a{
+    text-decoration: none;
+    font-size: 1rem;
+    color:$mainBlue;    
+    font-weight: 700;
+    transition: .5s;
+  }
+
+  a:hover{
+    text-decoration: none;
+    color:$mainBlue;
+    font-weight: 700;
+    background: linear-gradient(to right, $lightBlue, $mainPurple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+
+  h2 a{
+    text-decoration: none;
+    font-size: 1.75rem;
+    color:$darkBlue;    
+    font-weight: 700;
+    transition: .5s;    
+  }
+
+  h2 a:hover{
+    text-decoration: none;
+    font-size: 2rem;
+    color:$mainBlue;
+    background: linear-gradient(to right, $lightBlue, $mainPurple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;    
+    transition: .5s;
+  }
+
+}

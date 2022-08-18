@@ -1,0 +1,105 @@
+#ssb-section-id-1 {
+
+  
+  // Tipography
+  a{
+    text-decoration: none !important;
+  }
+  
+  p{
+    font-size: 1.2rem;
+    color: $gray;
+    font-weight: 300;
+  }
+
+  h1{
+    font-weight: 800;
+    color: $darkBlue;
+    line-height: 4rem;
+  }
+
+  .headline--large{
+    font-size: 3rem;
+  }
+
+  .headline--medium{
+    font-size: 2rem ;
+  }
+
+  .headline--small{
+    font-size: 1rem ;
+  }
+
+  @media (max-width: 994px) {
+
+    h1{
+      font-size: 3rem !important;
+    line-height: 3rem;
+    }
+
+    .lead{
+      padding-right: 0;
+    }
+
+  }
+
+  @media (max-width: 767px) {
+    
+    h1{
+      font-size: 2.5rem !important;
+      
+    }
+
+    .lead{
+      padding-right: 0;
+    }
+
+  }
+
+
+  .lead{
+    padding-right: 100px;
+  }
+  
+  .container .ssbcode-title b{
+    color: $darkBlue;
+  }
+  
+  .ssbc-gradient-text {
+    background: -webkit-linear-gradient(left, $lightBlue, $mainPurple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  lottie-player{
+    width: 550px;
+    height: 550px;
+  }
+
+  @media (max-width: 994px) {
+    lottie-player {
+      width: 300px !important;
+      height: 300px !important;
+    }
+  }
+
+
+  .btn-primary {
+    vertical-align: middle !important;
+    text-align: center;
+    transition: all ease 0.5s;
+    background-image: linear-gradient(to right, $secondBlue, $mainBlue, $lightBlue, $mainPurple) !important;
+    background-size: 300%;
+    background-position: 0 0;
+    -webkit-appearance: none !important;
+    color: #fff;
+    text-decoration: none;
+    border: 0 !important;
+  }
+
+  .btn-primary:hover {
+    background-position: 100% 0;
+    color: #fff;
+  }
+
+}
