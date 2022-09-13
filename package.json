@@ -4,8 +4,9 @@
   "description": "My V2 wordpress theme for ssbruno.com",
   "main": "index.js",
   "scripts": {
-    "start": "wp-scripts start src/index.js blocks/banner.js blocks/header.js blocks/button.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "wp-scripts start src/index.js blocks/banner.js blocks/header.js blocks/buttom/buttom.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build src/index.js blocks/banner.js blocks/header.js blocks/buttom/buttom.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "@wordpress/icons": "^9.5.0",
-    "@wordpress/scripts": "^19.2.2"
+    "@wordpress/scripts": "^19.2.2",
+    "bootstrap": "^5.2.1"
   }
 }

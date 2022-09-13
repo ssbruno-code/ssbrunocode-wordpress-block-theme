@@ -4,8 +4,8 @@ import { RichText, InspectorControls, BlockControls, __experimentalLinkControl a
 import { registerBlockType } from "@wordpress/blocks"
 import { useState } from "@wordpress/element"
 
-registerBlockType("ssbcodeblocks/button", {
-  title: "Button - SSBCode",
+registerBlockType("ssbcodeblocks/buttom", {
+  title: "Buttom - SSBCode",
   attributes: {
     text: {type: "string"},
     size: {type: "string", default:"large"},

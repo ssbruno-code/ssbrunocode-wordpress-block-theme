@@ -35,6 +35,7 @@ class Enqueue extends BaseController
 		wp_enqueue_style('custom-google-fonts', '//fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;800');
 		wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 		wp_enqueue_style('ssbcode_main_styles', get_theme_file_uri('/build/style-index.css'));
+		wp_enqueue_style('ssbcode_add_styles', get_theme_file_uri('/build/index.css'));
 		wp_enqueue_style( 'dashicons' );  
 	}
 

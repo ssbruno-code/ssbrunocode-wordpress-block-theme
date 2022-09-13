@@ -3,7 +3,7 @@
  * @package  SsbCodeBlockTheme
  */
 
-// If this file is called firectly, abort!!!
+// If this file is called directly, abort!
 defined( 'ABSPATH' ) or die( 'Hey, what are you doing here?' );
 
 // Require once the Composer Autoload

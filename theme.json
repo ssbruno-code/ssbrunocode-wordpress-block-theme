@@ -19,7 +19,7 @@
                 {
                 "slug": "blue",
                 "color": "#2e73ff",
-                "name": "Purple"
+                "name": "Blue"
                 },
                 {
                 "slug": "purple",
@@ -32,9 +32,6 @@
                 "name": "Dark Blue"
                 }
             ]    
-        },
-        "layout":{
-            "contentSize": "800px"
         }
     
     }

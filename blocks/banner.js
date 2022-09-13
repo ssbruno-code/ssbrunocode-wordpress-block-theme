@@ -16,29 +16,15 @@ registerBlockType("ssbcodeblocks/banner", {
 function EditComponent() {
   return (
     <>
-      <section className="p-5" id="ssb-section-id-1" style={{backgroundColor:'#f4f4f4'}}>
-        <div className="container">
-          <div className="d-sm-flex align-items-center justify-content-between row">
-           
-              <InnerBlocks  />         
-            
-          </div>        
-        </div>
+      <section className="p-2 " id="ssb-section-id-1" style={{backgroundColor:'#f4f4f4'}}>
+
+            <InnerBlocks allowedBlocks={["ssbcodeblocks/header", "ssbcodeblocks/buttom", "core/image", "core/columns"]} />     
+        
       </section>
     </>
   );
 }
 
 function SaveComponent() {
-  return (
-    <section className="p-5" id="ssb-section-id-1" style={{backgroundColor:'#f4f4f4'}}>
-      <div className="container" >
-        <div className="d-sm-flex align-items-center justify-content-between row">
-          <div class="w-sm-50 order-md-2 col-md-6 col-12">
-            <InnerBlocks.Content />
-          </div>        
-        </div>        
-      </div>
-    </section>
-  );
+  return <InnerBlocks.Content />
 }
