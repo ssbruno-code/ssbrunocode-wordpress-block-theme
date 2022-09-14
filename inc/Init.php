@@ -26,8 +26,7 @@ final class Init
 			Base\Cpts::class,
 			Base\RegisterBlocks::class,
 			Settings\Settings::class,			
-			Settings\Theme::class,			
-			Settings\SearchRoute::class		
+			Settings\Theme::class
 		];
 
 	}

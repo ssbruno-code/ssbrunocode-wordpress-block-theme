@@ -1,38 +1,74 @@
+.ssb-logo{
+  width: 8% !important;
+}
 
-  .ssb-logo{
-    width: 8% !important;
-  }
+.container .navbar-brand img{
+  margin-bottom: 5px;
+}
 
-  .container .navbar-brand img{
-    margin-bottom: 5px;
-  }
+.container .navbar-brand h3{
+  font-size: 1.5rem;
+  line-height: 1rem !important;
+  display:inline-block;
+}
 
-  .container .navbar-brand h3{
-    font-size: 1.5rem;
-    line-height: 1rem !important;
-    display:inline-block;
-  }
+@media(max-width:994px){
 
-  @media(max-width:994px){
-
-    .container .navbar-brand {
-      width: 70%;
-
-    }
-    
-    .ssb-logo{
-      width: 18% !important;
-    }
+  .container .navbar-brand {
+    width: 70%;
 
   }
-
-
-
-  #navmenu li{
-    align-items: center ;
-    vertical-align: middle;
-    margin: 0 auto;
-    display:inline-block;    
-  }
-
   
+  .ssb-logo{
+    width: 18% !important;
+  }
+
+}
+
+#navmenu li{
+  align-items: center ;
+  vertical-align: middle;
+  margin: 0 auto;
+  display:inline-block;    
+}
+
+.has-warning .control-label {
+  color: #ECF0F1;
+  font-weight: 400;
+}
+
+
+.btn-random {
+  padding-bottom: 8px;
+}
+
+.btn-random:focus {
+  outline: none;
+}
+
+#result-list{
+  position: absolute; 
+}
+
+.fa-search{
+  font-size: 1rem;
+  padding:  .3rem 1rem;
+  margin: 0 !important;
+  background-image: linear-gradient(120deg, #14a1ff,  #c444ff);
+  color:white;
+  border-radius: 5px;
+}
+
+.list-group-item{
+  background-color: rgba(255, 255, 255, 0.86);
+  z-index: 10;
+  width:25rem;
+}
+
+.form-group{
+  width: 16rem;
+}
+
+#searchInput{
+  height: 1.7rem;
+}

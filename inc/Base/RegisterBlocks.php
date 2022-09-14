@@ -25,6 +25,9 @@ class RegisterBlocks{
         new StaticBlock('skills');
         new StaticBlock('posts');
         new StaticBlock('footer');
+        new StaticBlock('archivehead');
+        new StaticBlock('archiveposts');
+        new StaticBlock('postcontent');
 
     }
 
