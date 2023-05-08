@@ -2201,9 +2201,7 @@ class Search {
         jquery__WEBPACK_IMPORTED_MODULE_0___default()("#result-list").empty();
         jquery__WEBPACK_IMPORTED_MODULE_0___default()("#result-list").show();
         res.forEach(item => {
-          var text = item.content.rendered;
-          text = text.split(' ').slice(0, 20).join(' ');
-          jquery__WEBPACK_IMPORTED_MODULE_0___default()("#result-list").append('<a href="' + item.link + '" class="list-group-item"><h4 class="list-group-item-heading">' + item.title.rendered + '</h4><p class="list-group-item-text">' + text + '...</p></a>');
+          jquery__WEBPACK_IMPORTED_MODULE_0___default()("#result-list").append('<a href="' + item.link + '" class="list-group-item"><h4 class="list-group-item-heading">' + item.title.rendered + '</h4><p class="list-group-item-text">' + item.excerpt.rendered + '</p></a>');
         });
       });
     };

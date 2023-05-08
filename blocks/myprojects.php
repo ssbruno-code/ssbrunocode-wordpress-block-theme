@@ -48,7 +48,7 @@
             <span>learn more</span>
           </a>
 
-          <a class="ex-button-0 btn-lg px-5 me-md-2 ssbc-button-color" href="http://theme.local/works/">
+          <a class="ex-button-0 btn-lg px-5 me-md-2 ssbc-button-color" href="/works/">
             <b class="ssbc-cspacing">Browse All <br> My Projects</b>
             <br>
             <span>learn more</span>

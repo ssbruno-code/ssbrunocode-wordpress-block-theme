@@ -27,10 +27,9 @@ class Search {
                 $("#result-list").show()
 
                 res.forEach((item) => {
-                    var text = item.content.rendered
-                    text = text.split(' ').slice(0, 20).join(' ')
+                    
                     $("#result-list").append(
-                        '<a href="' + item.link + '" class="list-group-item"><h4 class="list-group-item-heading">' + item.title.rendered + '</h4><p class="list-group-item-text">' + text + '...</p></a>'
+                        '<a href="' + item.link + '" class="list-group-item"><h4 class="list-group-item-heading">' + item.title.rendered + '</h4><p class="list-group-item-text">' + item.excerpt.rendered + '</p></a>'
                     ); 
                 })
                 

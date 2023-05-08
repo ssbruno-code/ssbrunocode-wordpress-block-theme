@@ -14,7 +14,7 @@
     <div class="container">
       <div class="d-md-flex align-items-center justify-content-between row">
         <div class="col-md-6 text-center">
-          <img class="img-fluid" src="https://ssbruno.com/wp-content/uploads/2022/01/Bruno-sml.png" alt="SSBruno-Photo">
+          <img class="img-fluid" src="<?= get_theme_file_uri() ?>/images/eu.png" alt="SSBruno-Photo">
         </div>
         <div class="col-md-3 col-6">
           <div class="feature ">
